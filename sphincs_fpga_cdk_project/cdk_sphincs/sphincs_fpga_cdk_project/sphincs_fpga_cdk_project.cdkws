@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDK_Workspace Name="sphincs_fpga_cdk_project" Database="LanguageSever">
+  <DefaultPackPath>$(CDKWS)\__workspace_pack__</DefaultPackPath>
+  <Project Name="smartl_e906fd-hello_world" Path="smartl_e906fd-hello_world/projects/examples/hello_world/CDK/smartl_e906fd-hello_world.cdkproj" RootPath="smartl_e906fd-hello_world" Active="Yes"/>
+  <Project Name="smartl_e906fd-core" Path="smartl_e906fd-core/projects/tests/core/CDK/smartl_e906fd-core.cdkproj" RootPath="smartl_e906fd-core" Active="No"/>
+  <Project Name="Smart_Flash_Test" Path="Smart_Flash_Test/Smart_Flash_Test.cdkproj" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="smartl_e906fd-hello_world" ConfigName="BuildSet"/>
+      <Project Name="smartl_e906fd-core" ConfigName="BuildSet"/>
+      <Project Name="Smart_Flash_Test" ConfigName="BuildSet"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CDK_Workspace>

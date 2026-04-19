@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="smartl_e906fd-hello_world" Version="1" Language="C">
+  <Description/>
+  <Dependencies Name="Debug"/>
+  <VirtualDirectory Name="board">
+    <VirtualDirectory Name="smartl_e906_evb">
+      <File Name="../../../../board/smartl_e906_evb/board_init.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../board/smartl_e906_evb/gcc_csky.ld">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="include">
+        <File Name="../../../../board/smartl_e906_evb/include/pin.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../board/smartl_e906_evb/include/test_driver_config.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../board/smartl_e906_evb/include/test_kernel_config.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="csi_core">
+    <VirtualDirectory Name="include">
+      <File Name="../../../../csi_core/include/core_rv32.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_core/include/csi_core.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_core/include/csi_rv32_gcc.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="csi_driver">
+    <VirtualDirectory Name="include">
+      <File Name="../../../../csi_driver/include/drv_aes.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_common.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_crc.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_dmac.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_eflash.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_errno.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_gpio.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_i2s.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_iic.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_intc.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_irq.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_pmu.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_pwm.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_rsa.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_rtc.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_sha.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_spiflash.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_spi.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_timer.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_trng.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_usart.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/include/drv_wdt.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="smartl_rv32">
+      <File Name="../../../../csi_driver/smartl_rv32/ck_irq.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/ck_usart.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/devices.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/dw_gpio.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/dw_timer.c">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="include">
+        <File Name="../../../../csi_driver/smartl_rv32/include/ck_usart.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/dw_gpio.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/dw_timer.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/pinmux.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/pin_name.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/soc.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../csi_driver/smartl_rv32/include/sys_freq.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../../../csi_driver/smartl_rv32/isr.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/lib.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/novic_irq_tbl.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/pinmux.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/startup.S">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/sys_freq.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/system.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/trap_c.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../csi_driver/smartl_rv32/vectors.S">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="libs">
+    <VirtualDirectory Name="include">
+      <File Name="../../../../libs/include/errno.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/include/mm.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/include/mm_queue.h">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="ringbuffer">
+        <File Name="../../../../libs/include/ringbuffer/ringbuffer.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../../../libs/include/syslog.h">
+        <FileOption/>
+      </File>
+      <VirtualDirectory Name="sys">
+        <File Name="../../../../libs/include/sys/_stdint.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <File Name="../../../../libs/include/time.h">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/include/umm_heap.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libc">
+      <File Name="../../../../libs/libc/clock_gettime.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/libc/_init.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/libc/malloc.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/libc/minilibc_port.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/libc/printf.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="mm">
+      <File Name="../../../../libs/mm/dq_addlast.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/dq_rem.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/lib_mallinfo.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_addfreechunk.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_free.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_initialize.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_leak.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_mallinfo.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_malloc.c">
+        <FileOption/>
+      </File>
+      <File Name="../../../../libs/mm/mm_size2ndx.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ringbuffer">
+      <File Name="../../../../libs/ringbuffer/ringbuffer.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="syslog">
+      <File Name="../../../../libs/syslog/syslog.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="projects">
+    <VirtualDirectory Name="examples">
+      <VirtualDirectory Name="hello_world">
+        <VirtualDirectory Name="configs">
+          <File Name="../../../../projects/examples/hello_world/configs/csi_config.h">
+            <FileOption/>
+          </File>
+        </VirtualDirectory>
+        <File Name="../../../../projects/examples/hello_world/main.c">
+          <FileOption/>
+        </File>
+        <VirtualDirectory Name="Analysis">
+          <File Name="../Analysis/AnalysisSPX.c">
+            <FileOption/>
+          </File>
+        </VirtualDirectory>
+        <VirtualDirectory Name="utils">
+          <File Name="../utils/intc.c">
+            <FileOption/>
+          </File>
+          <File Name="../utils/uart.c">
+            <FileOption/>
+          </File>
+          <File Name="../utils/uart_process.c">
+            <FileOption/>
+          </File>
+          <File Name="../utils/vtimer.c">
+            <FileOption/>
+          </File>
+        </VirtualDirectory>
+        <VirtualDirectory Name="HeadFile">
+          <VirtualDirectory Name="Analysis">
+            <File Name="../HeadFile/Analysis/AnalysisSPX.h">
+              <FileOption/>
+            </File>
+          </VirtualDirectory>
+          <VirtualDirectory Name="utils">
+            <File Name="../HeadFile/utils/config.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/datatype.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/hard.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/intc.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/timer.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/uart.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/uart_process.h">
+              <FileOption/>
+            </File>
+            <File Name="../HeadFile/utils/vtimer.h">
+              <FileOption/>
+            </File>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VendorInfo>
+    <VendorName>new_psf_project_SmartL_E906FD-R2S2(V1.7.9)_smartl_e906fd-hello_world</VendorName>
+  </VendorInfo>
+  <ToolsConfig>
+    <Compiler>
+      <Name>XTGccElfNewlib</Name>
+      <Version>latest</Version>
+    </Compiler>
+  </ToolsConfig>
+  <MonitorProgress>
+    <FlashOperate>70</FlashOperate>
+    <DebugLaunch>55</DebugLaunch>
+  </MonitorProgress>
+  <BuildConfigs>
+    <BuildConfig Name="BuildSet">
+      <Target>
+        <ROMBank Selected="1">
+          <ROM1>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM1>
+          <ROM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM2>
+          <ROM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM3>
+          <ROM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM4>
+          <ROM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM5>
+        </ROMBank>
+        <RAMBank>
+          <RAM1>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM1>
+          <RAM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM2>
+          <RAM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM3>
+          <RAM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM4>
+          <RAM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM5>
+        </RAMBank>
+        <CPU>e906</CPU>
+        <UseMiniLib>yes</UseMiniLib>
+        <Endian>little</Endian>
+        <UseHardFloat>no</UseHardFloat>
+        <UseEnhancedLRW>no</UseEnhancedLRW>
+        <UseContinueBuild>no</UseContinueBuild>
+        <UseSemiHost>no</UseSemiHost>
+      </Target>
+      <Output>
+        <OutputName>$(ProjectName)</OutputName>
+        <Type>Executable</Type>
+        <CreateHexFile>no</CreateHexFile>
+        <CreateBinFile>no</CreateBinFile>
+        <Preprocessor>no</Preprocessor>
+        <Disassmeble>yes</Disassmeble>
+        <CallGraph>no</CallGraph>
+        <Map>no</Map>
+      </Output>
+      <User>
+        <BeforeCompile>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeCompile>
+        <BeforeMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeMake>
+        <AfterMake>
+          <RunUserProg>yes</RunUserProg>
+          <UserProgName>"$(ProjectPath)/../../../../utilities//aft_build.sh"</UserProgName>
+        </AfterMake>
+        <Tools/>
+      </User>
+      <Compiler>
+        <Define/>
+        <Undefine/>
+        <Optim>None (-O0)</Optim>
+        <DebugLevel>Maximum (-g3)</DebugLevel>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/../../../../board/smartl_e906_evb/include;$(ProjectPath)/../../../../csi_core/include;$(ProjectPath)/../../../../csi_driver/include;$(ProjectPath)/../../../../csi_driver/smartl_rv32/include;$(ProjectPath)/../../../../csi_kernel/include;$(ProjectPath)/../../../../libs/include;$(ProjectPath)/../../../../projects/examples/hello_world/configs;$(ProjectPath)/../HeadFile/utils;$(ProjectPath)/../../../../projects/examples/hello_world/HeadFile/Analysis;$(ProjectPath)/../../../../projects/examples/hello_world/HeadFile/utils</IncludePath>
+        <OtherFlags>-ffunction-sections -fdata-sections</OtherFlags>
+        <Verbose>no</Verbose>
+        <Ansi>no</Ansi>
+        <Syntax>no</Syntax>
+        <Pedantic>no</Pedantic>
+        <PedanticErr>no</PedanticErr>
+        <InhibitWarn>no</InhibitWarn>
+        <AllWarn>yes</AllWarn>
+        <WarnErr>no</WarnErr>
+        <OneElfS>no</OneElfS>
+        <OneElfSPerData>no</OneElfSPerData>
+        <Fstrict>no</Fstrict>
+      </Compiler>
+      <Asm>
+        <Define/>
+        <Undefine/>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/../../../../projects/examples/hello_world/configs;$(ProjectPath)/../HeadFile/utils;../my_include/</IncludePath>
+        <OtherFlags/>
+        <DebugLevel>gdwarf2</DebugLevel>
+      </Asm>
+      <Linker>
+        <Garbage>yes</Garbage>
+        <Garbage2>yes</Garbage2>
+        <LDFile>$(ProjectPath)/../../../../board/smartl_e906_evb/gcc_csky.ld</LDFile>
+        <LibName>m</LibName>
+        <LibPath/>
+        <OtherFlags>-Wl,--no-relax</OtherFlags>
+        <AutoLDFile>no</AutoLDFile>
+        <LinkType/>
+        <IncludeAllLibs>no</IncludeAllLibs>
+      </Linker>
+      <Debug>
+        <LoadApplicationAtStartup>yes</LoadApplicationAtStartup>
+        <Connector>ICE</Connector>
+        <StopAt>yes</StopAt>
+        <StopAtText>main</StopAtText>
+        <InitFile>$(ProjectPath)/../../../../utilities/gdb.init</InitFile>
+        <AfterLoadFile/>
+        <AutoRun>yes</AutoRun>
+        <ResetType>Hard Reset</ResetType>
+        <SoftResetVal>0</SoftResetVal>
+        <ResetAfterLoad>no</ResetAfterLoad>
+        <AfterResetFile/>
+        <Dumpcore>no</Dumpcore>
+        <DumpcoreText/>
+        <ConfigICE>
+          <IP>localhost</IP>
+          <PORT>1025</PORT>
+          <CPUNumber>0</CPUNumber>
+          <Clock>1000</Clock>
+          <Delay>10</Delay>
+          <NResetDelay>100</NResetDelay>
+          <WaitReset>50</WaitReset>
+          <DDC>yes</DDC>
+          <TRST>no</TRST>
+          <DebugPrint>no</DebugPrint>
+          <Connect>Normal</Connect>
+          <ResetType>Soft Reset</ResetType>
+          <SoftResetVal>0</SoftResetVal>
+          <RTOSType>Bare Metal</RTOSType>
+          <DownloadToFlash>no</DownloadToFlash>
+          <ResetAfterConnect>yes</ResetAfterConnect>
+          <GDBName/>
+          <GDBServerType>Local</GDBServerType>
+          <OtherFlags/>
+          <ICEEnablePCSampling>no</ICEEnablePCSampling>
+          <ICESamplingFreq>1000</ICESamplingFreq>
+          <RemoteICEEnablePCSampling>no</RemoteICEEnablePCSampling>
+          <RemoteICESamplingPort>1026</RemoteICESamplingPort>
+          <Version>latest</Version>
+          <SupportRemoteICEAsyncDebug>no</SupportRemoteICEAsyncDebug>
+        </ConfigICE>
+        <ConfigSIM>
+          <SIMTarget/>
+          <OtherFlags/>
+          <NoGraphic>yes</NoGraphic>
+          <Log>no</Log>
+          <SimTrace>no</SimTrace>
+          <Version>latest</Version>
+        </ConfigSIM>
+        <ConfigOpenOCD>
+          <OpenOCDExecutablePath/>
+          <OpenOCDTelnetPortEnable>no</OpenOCDTelnetPortEnable>
+          <OpenOCDTelnetPort>4444</OpenOCDTelnetPort>
+          <OpenOCDTclPortEnable>no</OpenOCDTclPortEnable>
+          <OpenOCDTclPort>6666</OpenOCDTclPort>
+          <OpenOCDConfigOptions/>
+          <OpenOCDTimeout>5000</OpenOCDTimeout>
+          <PluginID>openocd-sifive</PluginID>
+          <Version>latest</Version>
+        </ConfigOpenOCD>
+      </Debug>
+      <Flash>
+        <InitFile>$(ProjectPath)/../../../../utilities//flash.init</InitFile>
+        <Erase>Erase Sectors</Erase>
+        <Algorithms Path="">Smart_Flash_Test.elf</Algorithms>
+        <Program>yes</Program>
+        <Verify>no</Verify>
+        <ResetAndRun>no</ResetAndRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal/>
+        <External>no</External>
+        <Command/>
+        <Arguments/>
+      </Flash>
+    </BuildConfig>
+  </BuildConfigs>
+  <DebugSessions>
+    <watchExpressions>crc_buf:1;f:1;data_len:1;b:1;FRAME_HEADER:1;cmd:1;crc:1;rxmode:1;txmode:1;c:1;g_recv_b:1;addr-&gt;THR:1;i:1;SPX-&gt;SPX_SRAM[i]:1</watchExpressions>
+    <memoryExpressions>0x400ad000;0x400a0000;0x400b0000;</memoryExpressions>
+    <statistics>;;32;;MHZ;</statistics>
+    <peripheralTabs/>
+    <WatchDisplayFormat>1</WatchDisplayFormat>
+    <LocalDisplayFormat>1</LocalDisplayFormat>
+    <debugLayout/>
+    <memoryTabColSizeExpressions>100:8;100:8;100:8;100:8;</memoryTabColSizeExpressions>
+  </DebugSessions>
+</Project>

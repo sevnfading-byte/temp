@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDK_Workspace Name="smartl_e906fd-hello_world" Database="smartl_e906fd-hello_world.tags">
+  <DefaultPackPath>$(CDKWS)\__workspace_pack__</DefaultPackPath>
+  <Project Name="smartl_e906fd-hello_world" Path="smartl_e906fd-hello_world.cdkproj" RootPath="" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="smartl_e906fd-hello_world" ConfigName="BuildSet"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CDK_Workspace>
